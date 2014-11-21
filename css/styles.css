@@ -1,0 +1,100 @@
+/* 
+    Created on : 21-Nov-2014, 5:20:14 AM
+    Author     : Angela Pang
+*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+    background-color: #222;
+}
+
+/*** No Script ***/
+noscript h1 {
+    width: 100%;
+    font-size: 24px;
+    background-color: #f00;    
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;    
+    text-align: center
+}
+
+/*** Navigation Bar ***/
+.navbar-inverse {
+    border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff; 
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/*** Page Content ***/
+.container {
+    min-height: 100%;
+    /*padding-left: 25%;
+    padding-right: 25%;*/
+}
+
+.content {
+    margin: auto;
+
+    /*overflow:auto;*/
+    max-width: 1100px;
+}
+
+/*** Triangles ***/
+/* 
+ * Triangle Ref: http://css-tricks.com/snippets/css/css-triangle/ 
+ */
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+
+    border-bottom: 5px solid black;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-top: 20px solid #f00;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+
+    border-left: 60px solid green;
+}
+
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+
+    border-right:10px solid blue; 
+}
+
+/*** Footer ***/
+.footer {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+}
+
+
+
+
