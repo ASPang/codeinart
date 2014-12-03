@@ -24,54 +24,125 @@
                 <?php include 'components/header.php'; ?>
 
                 <!-- Hero -->
-                Hello World!
+                <div class=""><div>
+                        <?php include 'components/carousel.php'; ?>
+                    </div></div>                
+
 
                 <!-- Hero Bottom Space -->
-                <div class="heroTriangle arrow-down"></div>
+                <!--div class="heroTriangle arrow-down"></div-->
 
                 <!-- Brief About Site -->
 
 
 
                 <!-- Page Updates -->
-                <div class="row">
+                <div class="row updateInfo" style="background-color: #fff;">
                     <h1>Recent Uploads</h1>
-                    <br>
+                    <hr class="featurette-divider">
+                    
+                    
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
-                            <img class="riangle">
+                            <div class="imgRecentThumb">
+                                 <div class="diamond-box">
+                                    <div class="diamond-box-inner">
+                                        <img src="img/temp.png"  />
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
+                            <h2>Latest Update #1</h2>
+                            <h4>
+                                Nunc auctor tellus nec dictum vestibulum. 
+                                Vivamus rhoncus tortor et leo ornare, quis 
+                                rutrum elit commodo. Sed a maximus quam, a 
+                                sollicitudin neque. 
+                                Duis vulputate eros libero, a dignissim lorem 
+                                ornare at. Donec non velit ex. Nullam velit 
+                                odio, mattis id tempor id, sodales at tortor. 
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                            <div class="imgRecentThumb">
+                                 <div class="diamond-box">
+                                    <div class="diamond-box-inner">
+                                        <img src="img/temp.png"  />
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
+                            <h2>Latest Update #3</h2>
+                            <h4>
+                                Nunc auctor tellus nec dictum vestibulum. 
+                                Vivamus rhoncus tortor et leo ornare, quis 
+                                rutrum elit commodo. Sed a maximus quam, a 
+                                sollicitudin neque. 
+                                Duis vulputate eros libero, a dignissim lorem 
+                                ornare at. Donec non velit ex. Nullam velit 
+                                odio, mattis id tempor id, sodales at tortor. 
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                            <div class="imgRecentThumb">
+                                 <div class="diamond-box">
+                                    <div class="diamond-box-inner">
+                                        <img src="img/temp.png"  />
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
+                            <h2>Latest Update #3</h2>
+                            <h4>
+                                Nunc auctor tellus nec dictum vestibulum. 
+                                Vivamus rhoncus tortor et leo ornare, quis 
+                                rutrum elit commodo. Sed a maximus quam, a 
+                                sollicitudin neque. 
+                                Duis vulputate eros libero, a dignissim lorem 
+                                ornare at. Donec non velit ex. Nullam velit 
+                                odio, mattis id tempor id, sodales at tortor. 
+                            </h4>
                         </div>
                     </div>
                 </div>
-
-                <!-- Facebook Comment Component -->
-                <div class="fb-comments" data-href="http://codeinart.com/commenttest.php" data-numposts="5" data-colorscheme="light"></div>
-
-                <div id="fb-root"></div>
-                <script>
-                    (function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id))
-                            return;
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }(document, 'script', 'facebook-jssdk'));
-                </script>                
-
-                `<!-- Javascript -->
-                <script src="js/bootstrap.js"></script>
 
                 <!-- Footer -->
                 <?php include 'components/footer.php' ?>
 
             </div>
-
-
-
         </div>
 
+
+        <!-- Boostrap JS Files -->
+        <script src="js/bootstrap.js"></script>
+        <script>
+            /*Carousel animation*/
+            $(document).ready(function() {
+                /* Automatically rotates the carousel */
+                $('.carousel').carousel({
+                    interval: 3000
+                });
+
+                /* Navigation control on the carousel */
+                $('.carousel-control.left').click(function() {
+                    $('.carousel').carousel('prev');
+                });
+
+                $('.carousel-control.right').click(function() {
+                    $('.carousel').carousel('next');
+                });
+            });
+        </script>
 
     </body>
 

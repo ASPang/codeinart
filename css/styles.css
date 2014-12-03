@@ -10,8 +10,12 @@ html, body {
     background-color: #222;
 }
 
+p {
+    font-size: 14px;
+}
+
 /*** No Script ***/
-noscript h1 {
+noscript {
     width: 100%;
     font-size: 24px;
     background-color: #f00;    
@@ -35,33 +39,43 @@ noscript h1 {
 }
 
 /*** Page Content ***/
-.container {
-    min-height: 100%;
-    /*padding-left: 25%;
-    padding-right: 25%;*/
+.container-fluid {
+    height: 100%;
 }
 
 .content {
+    position: relative;
     margin: auto;
 
     /*overflow:auto;*/
     max-width: 1100px;
+    min-height: 100%;
 }
+
+.updateInfo {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    max-width: 1100px;
+    margin: auto;   
+}
+
+/*** Footer ***/
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    color: #fff;
+    background-color: #555;
+}
+
 
 /*** Triangles ***/
 /* 
  * Triangle Ref: http://css-tricks.com/snippets/css/css-triangle/ 
  */
-.arrow-up {
-    width: 0; 
-    height: 0; 
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
 
-    border-bottom: 5px solid black;
-}
-
-.arrow-down {
+.trihero2 {
     width: 0; 
     height: 0; 
     border-left: 20px solid transparent;
@@ -70,31 +84,113 @@ noscript h1 {
     border-top: 20px solid #f00;
 }
 
-.arrow-right {
+
+.trihero{
+    width: 25%;
+    height: 0;
+    padding-left: 25%;
+    padding-top: 25%;
+    overflow: hidden;
+}
+.trihero div {
     width: 0; 
-    height: 0; 
-    border-top: 60px solid transparent;
-    border-bottom: 60px solid transparent;
+    height: 0;
+    /*margin-left:-500px;
+    margin-top:-500px;*/
+    margin: -100px;
 
-    border-left: 60px solid green;
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+    border-top: 500px solid #4679BD;
 }
 
-.arrow-left {
-    width: 0; 
-    height: 0; 
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
+/*
+ * Original Code From: https://github.com/mqchen/jquery.diamonds.js
+ */
+.diamond-box {
+    transform: rotate(45deg);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 70.7107%;
+    height: 70.7107%;
+    margin: 14.6447%;
+    border: 1px solid transparent;
+}
+                
+                
+.diamond-box-inner {
+    transform: rotate(-45deg);
+    transform-origin: center center 0px;
+    box-sizing: border-box;
+    width: 141.421%;
+    height: 141.421%;
+    margin: -20.7107% 0px 0px -20.7107%;
+}
+/*****************END OF REFERENCED CODE *******************/
 
-    border-right:10px solid blue; 
+.imgRecentThumb {
+    height: 200px; 
+    width: 200px;
+    margin: auto;
 }
 
-/*** Footer ***/
-.footer {
-    position: absolute;
-    bottom: 0px;
-    color: #fff;
+.artImgDiamond {
+    float: right;
+    height: 200px; 
+    width: 200px;
+    margin: auto;
+}
+
+.artImgTmb {
+    height: auto; 
+    width: 200px;
+}
+
+.artImgTmbHor {
+    height: 200px; 
+    width: auto;
+}
+
+/*** Contact Page ***/
+.contactRow, .contactRow div {
+    height: 100%;
+}
+
+.triangle-right-nonResponsive {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 250px 0 250px 50px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.contactTriangle {
+    padding: 0;
+}
+
+.contactInfo {
+    background-color: #fff;
+    height: 500px;
+}
+
+form div{    
+    padding-top: 1em;
+    text-align: center;
+}
+
+form .contactLabel {
+    text-align: right;
+}
+
+form div button {
+    margin: auto;
 }
 
 
-
+a:active {
+    color: #f00;
+    background-color: #00FF00;    
+}
 
