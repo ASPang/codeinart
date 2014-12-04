@@ -24,7 +24,7 @@
                 <?php include 'components/header.php'; ?>
 
                 
-                <div class ="contactRow row">
+                <div class ="row">
                     <!-- Contact Information -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="contactInfo col-xs-12 col-sm-12 col-md-11 col-lg-11">
@@ -32,7 +32,12 @@
                             <p>Got feedback about my art? Or general questions?</p>
                             <p>Feel free to contact me through either through the
                                 contact form or my email: 
-                                <a href="mailto:apang@uoguelph.ca">apang@uoguelph.ca</a>
+                                <br>
+                                <div class="socialMediaIcons">
+                                <a href="mailto:apang@uoguelph.ca">
+                                    <img src="img/social/mailIcon.png" alt="apang@uoguelph.ca"/>
+                                </a>
+                                </div>
                             </p>
                             
                             <br>
@@ -40,11 +45,11 @@
                                 You can also stay connected with me through the following:
                             </p>
                             <p class="socialMediaIcons">
-                            <a href="#">
-                                    <img src="#" alt="facebook" />
+                                <a href="https://www.facebook.com/angela.pang.501">
+                                    <img src="img/social/facebookIcon.png" alt="facebook" />
                                 </a>
-                                <a href="#">
-                                    <img src="#" alt="linkedin" />
+                                <a href="http://ca.linkedin.com/pub/angela-pang/48/708/4a8/">
+                                    <img src="img/social/linkedinIcon.png" alt="linkedin" />
                                 </a>
                             </p>
                         </div>
@@ -54,15 +59,13 @@
                     </div>
                     
                     <!-- Contact Form -->
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <!--
-                        <div class="contactLabel col-md-4">
-                            <p>Name:</p>
+                    <div class="contactFormCol col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h4>&numsp;</h4>
+                        <div class="col-md-12">
+                            <h4>Contact Form</h4>
+                            <?php include 'contactPost.php' ?>
                         </div>
-                        <div class="contactName col-md-8">
-                            
-                        </div>
-                        -->
+                        
                         <form id="contactForm" role="form" method="post" action="contact.php">
                             <div class="form-group">
                                 <div class="contactLabel col-md-3">
@@ -104,14 +107,10 @@
                         </form>
                     </div>
                 </div>
-                
-
-             
-                <?php include 'contactPost.php' ?>
-
-                <script src="js/bootstrap.js"></script>
+              
                 `<!-- Javascript -->
-
+                <script src="js/bootstrap.js"></script>
+                
                 <!-- Footer -->
                 <?php include 'components/footer.php' ?>
             </div>

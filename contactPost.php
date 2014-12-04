@@ -21,15 +21,14 @@
         $sentMsg = mail ($to, $subject, $body, $from);
         if ($sentMsg == true) {
         //alert("Message was sent sucessfully.");
-            echo '<p>Your message has been sent!</p>';
+            echo '<p id="contactMsgSent">Your message has been sent!</p>';
         }
         else {
-            echo '<p>Message wasn\'t sent</p>';
+            echo '<p id="contactMsgNotSent">Something went wrong with the server. Please try again.</p>';
         }
     }
-    else {
-        echo '<p>All fields are required</p>';
-        echo $name.$email.$subject.$message.$submit;
+    else if ($submit == true) {
+        echo '<p id="contactMsgNotSent">*All fields are required.</p>';
     }
     
     

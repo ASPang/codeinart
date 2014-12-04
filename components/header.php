@@ -1,5 +1,5 @@
 <?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
-
+<br>
 <div class="row">
     <div class="logoDiv col-sm-12 col-md-2">
         <img src="img/logo.png" alt="CODEINART" />

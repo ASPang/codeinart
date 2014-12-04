@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Exploring Different Art Mediums- Code In Art</title>
-        <meta name="description" content="Works of art created through Studio Arts course as a minor by Angela Pang." />
+        <title>Artist's Background- Code In Art</title>
+        <meta name="description" content="Background information about Angela Pang." />
 
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
@@ -23,46 +23,37 @@
                 <!-- Navigation Bar -->
                 <?php include 'components/header.php'; ?>
 
-                <!-- Brief About Site -->
-                <div class="row" style="background-color: #fff;">
-                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
-                        <h2>About Angela</h2>
-                        <h4>
-                            Nunc auctor tellus nec dictum vestibulum. 
-                            Vivamus rhoncus tortor et leo ornare, quis 
-                            rutrum elit commodo. Sed a maximus quam, a 
-                            sollicitudin neque. 
-                            Duis vulputate eros libero, a dignissim lorem 
-                            ornare at. Donec non velit ex. Nullam velit 
-                            odio, mattis id tempor id, sodales at tortor. 
-                        </h4>
-                        <br>
-                        
-                        <h2>Studio Arts At Guelph</h2>
-                        <h4>
-                            Nunc auctor tellus nec dictum vestibulum. 
-                            Vivamus rhoncus tortor et leo ornare, quis 
-                            rutrum elit commodo. Sed a maximus quam, a 
-                            sollicitudin neque. 
-                            Duis vulputate eros libero, a dignissim lorem 
-                            ornare at. Donec non velit ex. Nullam velit 
-                            odio, mattis id tempor id, sodales at tortor. 
-                        </h4>                     
-                        <h4>
-                            Nunc auctor tellus nec dictum vestibulum. 
-                            Vivamus rhoncus tortor et leo ornare, quis 
-                            rutrum elit commodo. Sed a maximus quam, a 
-                            sollicitudin neque. 
-                            Duis vulputate eros libero, a dignissim lorem 
-                            ornare at. Donec non velit ex. Nullam velit 
-                            odio, mattis id tempor id, sodales at tortor. 
-                        </h4>   
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4" style="background-color: #777; height: 500px;">
-                        ...
-                    </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h1>About Angela</h1>
+
+                    <div class ="aboutRow row">
+                        <!-- About Angela Information -->
+                        <div id="aboutArtist" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                            <p>
+                                I'm Angela Pang, a student at the University of Guelph 
+                                in my final year of the Software Engineering program. 
+                                I never really thought that I'll end up in the computing 
+                                field as I was a visual arts student in high school. 
+                                When selecting my program for first year university, 
+                                Guelph's program gave me the option to combine the arts 
+                                and computing program. I had taken a couple of programming 
+                                courses back in high school and thought it'll be interesting 
+                                to try to apply the arts into more challenging programs.
+                            </p>
+                        </div>
+
+                        <!-- Artist Image  -->
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div id="artistImgDiamond">
+                                <div class="diamond-box">
+                                    <div class="diamond-box-inner">
+                                            <img src="img/sculpture/181.JPG" />
+                                    </div><!--diamond-box-inner-->
+                                </div><!--diamond-box-->
+                            </div><!--artImgDiamond-->
+                        </div><!--col-->
+                    </div><!--aboutRow-->
                 </div>
-             
 
                 <script src="js/bootstrap.js"></script>
                 `<!-- Javascript -->
