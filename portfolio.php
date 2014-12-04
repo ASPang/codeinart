@@ -24,6 +24,7 @@
                 <?php include 'components/header.php'; ?>
 
                 <h1>Portfolio</h1>
+                <?php include 'modal.php' ?>
                 
                 <h3>Sculpture</h3>
                 <?php include 'sculpture.php'; ?>

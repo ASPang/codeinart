@@ -12,7 +12,7 @@
     
     
     $from = $name; 
-    $to = 'apang@uoguelph.ca'; 
+    $to = 'kawaii_dark@hotmail.com'; 
     
     
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";

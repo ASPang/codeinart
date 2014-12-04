@@ -82,7 +82,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="contactLabel col-md-3">
-                                    <label for="userContactSubject">Email address:</label>
+                                    <label for="userContactSubject">Subject:</label>
                                 </div>
                                 <div class="col-md-9">
                                     <input name="userContactSubject" type="subject" class="form-control" id="userContactSubject" placeholder="Enter subject">

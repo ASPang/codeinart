@@ -218,6 +218,21 @@ noscript {
     width: auto;
 }
 
+/*** Modal **/
+#expandedImg {
+    height: 800px;
+    width: auto;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-lg {
+    width: 1100px;
+}
+
+
 /*** Contact Page ***/
 .contactRow, .contactRow div {
     height: 100%;
