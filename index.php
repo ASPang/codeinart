@@ -34,12 +34,6 @@
                     <div class="triangle-down-right2" ></div>
                     <div class="triangle-down-right" ></div>
                 </div>
-                <!-- Hero Bottom Space -->
-                <!--div class="heroTriangle arrow-down"></div-->
-
-                <!-- Brief About Site -->
-
-
 
                 <!-- Page Updates -->
                 <div class="row updateInfo" style="background-color: #fff;">

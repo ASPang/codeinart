@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <title>Stay Connected- Code In Art</title>
         <meta name="description" content="Contact page for Angela Pang." />
-
+        <link rel="shortcut icon" href="img/favicon.ico" >
+        
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" type="text/css" />

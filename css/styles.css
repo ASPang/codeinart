@@ -127,7 +127,7 @@ noscript {
 
     border-left: 500px solid transparent;
     border-right: 500px solid transparent;
-    border-top: 500px solid #4679BD;
+    border-top: 500px solid #0A8945;
 }
 
 .heroBottom div {
@@ -149,7 +149,7 @@ noscript {
     margin-top: -50px;
     border-left: 600px solid transparent;
     border-right: 600px solid transparent;
-    border-top: 45px solid #4679BD;
+    border-top: 45px solid #0A8945;
 }
 
 /*
@@ -327,12 +327,6 @@ form div .btn {
 #contactMsgNotSent {
     color: #f00;
 }
-
-a:active {
-    color: #f00;
-    background-color: #00FF00;    
-}
-
 
 /****** ABOUT PAGE ******/
 .aboutRow {
