@@ -48,6 +48,11 @@ noscript {
     float: right;
 }
 
+.socialMediaDiv img {
+    width: 35px;
+    height: auto;
+}
+
 /*** Page Content ***/
 .container-fluid {
     height: 100%;
@@ -224,13 +229,14 @@ noscript {
     width: auto;
 }
 
-.modal-body {
+.modal-body, .modal-footer {
     text-align: center;
 }
 
 .modal-lg {
     width: 1100px;
 }
+
 
 
 /*** Contact Page ***/

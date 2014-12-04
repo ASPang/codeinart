@@ -7,12 +7,12 @@
     <div class="col-sm-12 col-md-10">
         <div class="row">
             <div class="socialMediaDiv">
-                <a href="#">
-                                    <img src="#" alt="facebook" />
-                                </a>
-                                <a href="#">
-                                    <img src="#" alt="linkedin" />
-                                </a>
+                <a href="https://www.facebook.com/angela.pang.501">
+                    <img src="img/social/facebookIcon.png" alt="facebook" />
+                </a>
+                <a href="http://ca.linkedin.com/pub/angela-pang/48/708/4a8/">
+                    <img src="img/social/linkedinIcon.png" alt="linkedin" />
+                </a>
             </div>   <!-- TESTING!!!! - Temporary height -->
         </div>
         <div class="row">
@@ -36,25 +36,16 @@
                         <ul class="nav navbar-nav">
                             <li <?php if ($page == 'index.php') { ?> class="active" <?php } ?>><a href="index.php">Home</a></li>
                             <li <?php if ($page == 'portfolio.php') { ?> class="active" <?php } ?>><a href="portfolio.php">Portfolio</a></li>
-                            <!--li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Prints</a></li>
-                                    <li><a href="#">Sculptures</a></li>
-                                    <li><a href="#">Graphics</a></li>
-                                </ul>
-                            </li-->
                             <li <?php if ($page == 'contact.php') { ?> class="active" <?php } ?>><a href="contact.php">Contact</a></li>
                             <li <?php if ($page == 'about.php') { ?> class="active" <?php } ?>><a href="about.php">About</a></li>
                         </ul>
-
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
 
-        </div>
-    </div>
-</div>
+        </div><!--row-->
+    </div><!--col-->
+</div><!--row-->
 
-    <noscript>Please Enable Javascript</noscript>
+<noscript>Please Enable Javascript</noscript>
 

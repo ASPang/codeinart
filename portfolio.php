@@ -24,7 +24,7 @@
                 <?php include 'components/header.php'; ?>
 
                 <h1>Portfolio</h1>
-                <?php include 'modal.php' ?>
+                <?php include 'components/modal.php' ?>
                 
                 <h3>Sculpture</h3>
                 <?php include 'sculpture.php'; ?>
@@ -43,5 +43,9 @@
                     <?php include 'components/footer.php' ?>
                 </div>
             </div>
+        
+        <!-- Modal Scripts -->
+        <script src="js/modal.js"></script>
+        
     </body>
 </html> 
