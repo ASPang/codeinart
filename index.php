@@ -52,23 +52,25 @@
                             <div class="imgRecentThumb">
                                 <div class="diamond-box">
                                     <div class="diamond-box-inner">
-                                        <img src="img/temp.png"  />
+                                        <img src="img/hero/portfolioPage.png"  />
                                     </div>
 
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
-                            <h2>Latest Update #1</h2>
-                            <h4>
-                                Nunc auctor tellus nec dictum vestibulum. 
-                                Vivamus rhoncus tortor et leo ornare, quis 
-                                rutrum elit commodo. Sed a maximus quam, a 
-                                sollicitudin neque. 
-                                Duis vulputate eros libero, a dignissim lorem 
-                                ornare at. Donec non velit ex. Nullam velit 
-                                odio, mattis id tempor id, sodales at tortor. 
-                            </h4>
+                            <h2>Portfolio Up</h2>
+                            <h4><b>2014-12-04</b></h4>
+                            <br>
+                            <p>
+                                The site is finally up and running, and the 
+                                portfolio has been updated with recent artworks.
+                            </p>    
+                            <p>
+                                Feel Free to check it out!                                
+                            </p>
+                            
+                            <a href="portfolio.php" class="btn alert-success" role="button">View Portfolio</a>
                         </div>
                     </div>
                     <div class="row">
@@ -76,23 +78,23 @@
                             <div class="imgRecentThumb">
                                 <div class="diamond-box">
                                     <div class="diamond-box-inner">
-                                        <img src="img/temp.png"  />
+                                        <img src="img/hero/mailIcon.png"  />
                                     </div>
 
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
-                            <h2>Latest Update #3</h2>
-                            <h4>
-                                Nunc auctor tellus nec dictum vestibulum. 
-                                Vivamus rhoncus tortor et leo ornare, quis 
-                                rutrum elit commodo. Sed a maximus quam, a 
-                                sollicitudin neque. 
-                                Duis vulputate eros libero, a dignissim lorem 
-                                ornare at. Donec non velit ex. Nullam velit 
-                                odio, mattis id tempor id, sodales at tortor. 
-                            </h4>
+                            <h2>Contact Me!</h2>
+                            <h4><i>2014-11-11</i></h4>
+                            <p>
+                                Curious to know the current status of the website? 
+                                Did you know that you can contact me through more than just email?
+                                <br><br>
+                                For more information on how to reach me you can check out the contact page.                                
+                            </p>
+                            
+                            <a href="contact.php" class="btn alert-success" role="button">Contact Angela</a>
                         </div>
                     </div>
                     <div class="row">
@@ -100,23 +102,20 @@
                             <div class="imgRecentThumb">
                                 <div class="diamond-box">
                                     <div class="diamond-box-inner">
-                                        <img src="img/temp.png"  />
+                                        <img src="img/hero/logo.png"  />
                                     </div>
 
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
-                            <h2>Latest Update #3</h2>
-                            <h4>
-                                Nunc auctor tellus nec dictum vestibulum. 
-                                Vivamus rhoncus tortor et leo ornare, quis 
-                                rutrum elit commodo. Sed a maximus quam, a 
-                                sollicitudin neque. 
-                                Duis vulputate eros libero, a dignissim lorem 
-                                ornare at. Donec non velit ex. Nullam velit 
-                                odio, mattis id tempor id, sodales at tortor. 
-                            </h4>
+                            <h2>CodeInArt Domain Acquired</h2>
+                            <h4><i>2014-11-11</i></h4>
+                            <p>
+                                Domain for CodeInArt has been registered.
+                                <br><br>
+                                Stay tune for updates in a couple of weeks!
+                            </p>
                         </div>
                     </div>
                 </div>

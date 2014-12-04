@@ -27,6 +27,11 @@ noscript {
 /*** Navigation Bar ***/
 .navbar-inverse {
     border: none;
+    background-color: transparent;
+}
+
+.navbar .container-fluid, .navbar .navbar-collapse {
+    padding-right: 0;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -76,6 +81,10 @@ noscript {
     margin: auto;   
 }
 
+.item img {
+    max-height: 500px;
+}
+
 /*** Footer ***/
 .footer {
     position: absolute;
@@ -83,6 +92,7 @@ noscript {
     bottom: 0px;
     color: #fff;
     background-color: #555;
+    padding: 0.5em 1em 0.5em 1em;
 }
 
 
@@ -186,8 +196,12 @@ noscript {
     margin: auto;
 }
 
+.imgRecentThumb .diamond-box-inner {
+    background-color: #333;
+}
+
 .artImgDiamond {
-    float: left;
+    /*float: left;*/
     height: 200px; 
     width: 200px;
     margin: auto;
@@ -221,14 +235,24 @@ noscript {
     padding-bottom: 2em;
 }
 
+#portfolioHeader {
+    color: #0A8945;
+    text-align: center;
+    font-size: 50px;
+}
+
 .portHeaderImg .carousel-caption {
     bottom: 35%;
 }
 
 .portHeaderImg:hover {
-    color: #fff;
+    color: #0A8945;
     background-color: #52AB7E;
     opacity: 0.5;
+}
+
+#sculptureHeader, #graphicHeader, #printHeader {
+    color: #fff;
 }
 
 /*** Modal **/
@@ -325,8 +349,8 @@ a:active {
 }
 
 .portHeader {
-    background-color: #ccc;
-    padding-right: 50px;
+    background-color: #0A8945;
+    padding: 0 50px 1em 1em;
 }
 
 #aboutHeader {
@@ -372,8 +396,8 @@ a:active {
     width: 0;
     height: 0;
     right: 0;
-    border-left: 50px solid #ccc; /* razorblade color */
-    border-top: 50px solid #333; /* page background color */
+    border-left: 50px solid #0A8945; /* razorblade color */
+    border-top: 70px solid #222; /* page background color */
 }
 
 #aboutHeader:after {

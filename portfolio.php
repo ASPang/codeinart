@@ -34,7 +34,7 @@
                         <a class="portHeaderImg" href="#sculptureHeader">
                             <img src="img/portHeader/sculpture.png" />
                             <div class="carousel-caption"> 
-                                <h1>Sculpture</h1>
+                                <h1>Sculptures</h1>
                             </div>
                         </a>
                     </div>
@@ -42,7 +42,7 @@
                         <a class="portHeaderImg" href="#printHeader">
                             <img src="img/portHeader/print.png" />
                             <div class="carousel-caption"> 
-                                <h1>Print Making</h1>
+                                <h1>Prints</h1>
                             </div>
                         </a>
                     </div>
@@ -50,7 +50,7 @@
                         <a class="portHeaderImg" href="#graphicHeader">                            
                             <img src="img/portHeader/graphic.png" />
                             <div class="carousel-caption"> 
-                                <h1>Graphics</h1>
+                                <h1>Digital</h1>
                             </div>
                         </a>
                     </div>
@@ -59,7 +59,7 @@
 
                 <div class="col-md-4">
                     <div class="portHeader row">
-                        <h2 id="sculptureHeader">Sculpture</h2>
+                        <h2 id="sculptureHeader">Sculptures</h2>
                     </div>
                 </div>
                 <div class="col-md-8"></div>
@@ -69,7 +69,7 @@
 
                 <div class="col-md-4">
                     <div class="portHeader row">
-                        <h2 id="printHeader">Print Making</h2>
+                        <h2 id="printHeader">Prints</h2>
                     </div>
                 </div>
                 <div class="col-md-8"></div>
@@ -79,13 +79,13 @@
 
                 <div class="col-md-4">
                     <div class="portHeader row">
-                        <h2 id="graphicHeader">Graphics</h2>
+                        <h2 id="graphicHeader">Digital</h2>
                     </div>
                 </div>
                 <div class="col-md-8"></div>
                 <div class="row">
                 </div>
-                <?php include 'sculpture.php'; ?>
+                <?php include 'graphic.php'; ?>
 
 
                 <script src="js/bootstrap.js"></script>

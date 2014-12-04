@@ -35,7 +35,7 @@
 
                     <div class ="aboutRow row">
                         <!-- About Angela Information -->
-                        <div id="aboutArtist" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                        <div id="aboutArtist" class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                             <p>
                                 I'm Angela Pang, a student at the University of Guelph 
                                 in my final year of the Software Engineering program. 
@@ -50,7 +50,7 @@
                         </div><!--aboutArist-->
 
                         <!-- Artist Image  -->
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                             <div id="artistImgDiamond">
                                 <div class="diamond-box">
                                     <div class="diamond-box-inner">

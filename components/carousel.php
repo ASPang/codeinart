@@ -9,19 +9,19 @@
     <div class="carousel-inner">
         <!-- 1st slide -->
         <div class="item active">
-            <img src="img/hero/temp.png" alt="..." style="width: 100%; height: 100%;">
+            <img src="img/hero/heroimg1.png" alt="Welcome" />
 
             <div class="carousel-caption"> 
-                <h1>...</h1>
-                <h3>...</h3>
+                <h1>Welcome to Angela Pang's Art Portfolio!</h1>
+                <h3>You can learn more about the artist at her about page.</h3>
             </div>
         </div>
 
         <!-- 2nd slide -->
         <div class="item">
-            <img src="img/hero/temp.png" alt="..." style="width: 100%; height: 100%;">
+            <img src="img/hero/portfolioPageHeader.png" alt="Portfolio">
             <div class="carousel-caption"> 
-                <h1>...</h1>
+                <h1>You can find the Angela's Portfolio </h1>
                 <h3>...</h3>
             </div>
         </div>

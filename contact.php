@@ -25,7 +25,7 @@
                 <div class ="row">
                     <!-- Contact Information -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="contactInfo col-xs-12 col-sm-12 col-md-11 col-lg-11">
+                        <div class="contactInfo col-xs-11 col-sm-11 col-md-11 col-lg-11">
                             <h1>Contact Me</h1>
                             <p>Got feedback about my art? Or general questions?</p>
                             <p>Feel free to contact me through either through the
