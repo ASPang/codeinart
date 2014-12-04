@@ -1,4 +1,4 @@
-<div class ="row">
+<div class ="artworkRow row">
     <div class="col-md-3">
         <p>
             text goes here

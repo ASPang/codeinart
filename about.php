@@ -24,7 +24,13 @@
                 <?php include 'components/header.php'; ?>
 
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                    <h1>About Angela</h1>
+                    
+                    <div class="row">
+                        <div id="aboutHeader" class="col-md-4">
+                            <h1>About Angela</h1>
+                        </div>
+                        <div class="col-md-8"></div>
+                    </div><!--aboutHeader-->
 
                     <div class ="aboutRow row">
                         <!-- About Angela Information -->
@@ -40,7 +46,7 @@
                                 courses back in high school and thought it'll be interesting 
                                 to try to apply the arts into more challenging programs.
                             </p>
-                        </div>
+                        </div><!--aboutArist-->
 
                         <!-- Artist Image  -->
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">

@@ -34,12 +34,13 @@ noscript {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #0A8945;
 }
 
-.logoDiv img, .socialMediaDiv a {
+.logoDiv img, .socialMediaDiv a, .logoDiv a:hover, .logoDiv a{
     text-align: center;
+    background-color: transparent;
 }
 
 .socialMediaDiv {
@@ -63,7 +64,7 @@ noscript {
     margin: auto;
 
     /*overflow:auto;*/
-    max-width: 1100px;
+    width: 1100px;
     min-height: 100%;
 }
 
@@ -209,6 +210,17 @@ noscript {
     width: auto;
 }
 
+.socialMediaIcons a:hover, .socialMediaDiv a:hover {
+    background-color: #52AB7E;
+    opacity: 0.5;
+    font-size: 0px;
+} 
+
+.artworkRow, .artworkRow .row {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
 /*** Modal **/
 #expandedImg {
     height: 600px;
@@ -235,7 +247,7 @@ noscript {
     height: 0;
     border-style: solid;
     border-width: 250px 0 250px 50px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #ccc;
 }
 
 .contactTriangle {
@@ -243,8 +255,9 @@ noscript {
 }
 
 .contactInfo {
-    background-color: #fff;
-    height: 500px;
+    background-color: #ccc;
+    height: 100%;
+    padding-bottom: 1em;
 }
 
 .socialMediaIcons {
@@ -270,7 +283,7 @@ form div .btn {
 
 #contactMsgSent, #contactMsgNotSent {
     font-size: 18px;
-    
+
 }
 
 #contactMsgSent {
@@ -292,13 +305,26 @@ a:active {
     background-color: #ccc;
     padding-top: 2em;
     padding-bottom: 3em;
-        
+
 }
 
 .aboutRow p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.75em;
     padding: 0em 5em 1.1em 0.4em;
+}
+
+.portHeader {
+    background-color: #ccc;
+    padding-right: 50px;
+}
+
+#aboutHeader {
+    background-color: #0A8945;
+}
+
+#aboutHeader h1{
+    color: #fff;
 }
 
 /*
@@ -306,25 +332,48 @@ a:active {
  * Reference: http://codepen.io/danielsmcclintock/pen/ljeis
  */
 .aboutRow {
-	position: relative;
-        height: 100%;
+    position: relative;
+    height: 100%;
+    float: left;
+    z-index: 1;
 }
-.aboutRow {
-	float: left;
-	z-index: 1;
+
+.portHeader, #aboutHeader {
+    position: relative;
+    height: 100%;
+    z-index: 1;
 }
 
 .aboutRow:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	width: 0;
-	height: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    right: 0;
+    border-left: 400px solid #ccc; /* razorblade color */
+    border-top: 370px solid #222; /* page background color */
 }
 
-.aboutRow:after {
-	right: 0;
-	border-left: 400px solid #ccc; /* razorblade color */
-	border-top: 370px solid #222; /* page background color */
+.portHeader:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    right: 0;
+    border-left: 50px solid #ccc; /* razorblade color */
+    border-top: 50px solid #333; /* page background color */
+}
+
+#aboutHeader:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    right: 0;
+    border-left: 50px solid #0A8945; /* razorblade color */
+    border-top: 80px solid #222; /* page background color */
 }
 /*****************END OF REFERENCED CODE *******************/

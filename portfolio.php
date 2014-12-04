@@ -25,27 +25,49 @@
 
                 <h1>Portfolio</h1>
                 <?php include 'components/modal.php' ?>
-                
-                <h3>Sculpture</h3>
-                <?php include 'sculpture.php'; ?>
-                
-                <h3>Print Making</h3>
-                <?php include 'prints.php'; ?>
-                
-                <h3>Graphics</h3>
-                <?php include 'sculpture.php'; ?>
 
-                    
-                    <script src="js/bootstrap.js"></script>
-                    `<!-- Javascript -->
 
-                    <!-- Footer -->
-                    <?php include 'components/footer.php' ?>
+                <div class="col-md-4">
+                    <div class="portHeader row">
+                        <h2>Sculpture</h2>
+                    </div>
                 </div>
+                <div class="col-md-8"></div>
+                <div class="row">
+                </div>
+                <?php include 'sculpture.php'; ?>
+
+                <div class="col-md-4">
+                    <div class="portHeader row">
+                        <h2>Print Making</h2>
+                    </div>
+                </div>
+                <div class="col-md-8"></div>
+                <div class="row">
+                </div>
+                <?php include 'prints.php'; ?>
+
+                <div class="col-md-4">
+                    <div class="portHeader row">
+                        <h2>Graphics</h2>
+                    </div>
+                </div>
+                <div class="col-md-8"></div>
+                <div class="row">
+                </div>
+                <?php include 'sculpture.php'; ?>
+
+
+                <script src="js/bootstrap.js"></script>
+                `<!-- Javascript -->
+
+                <!-- Footer -->
+                <?php include 'components/footer.php' ?>
             </div>
-        
+        </div>
+
         <!-- Modal Scripts -->
         <script src="js/modal.js"></script>
-        
+
     </body>
 </html> 

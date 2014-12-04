@@ -11,6 +11,7 @@
                 <img id="expandedImg" src="#" />
             </div>
             <div class="modal-footer">
+                <h3>Facebook Comments </h3>
                 <!-- Facebook Comment Component -->
                 <div class="fb-comments" data-href="#" data-numposts="5" data-colorscheme="light"></div>
 

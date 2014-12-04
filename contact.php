@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Exploring Different Art Mediums- Code In Art</title>
-        <meta name="description" content="Works of art created through Studio Arts course as a minor by Angela Pang." />
+        <title>Stay Connected- Code In Art</title>
+        <meta name="description" content="Contact page for Angela Pang." />
 
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
@@ -11,9 +11,7 @@
 
         <!-- jQuery -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-        <!-- CSS files -->
-        <!--link rel="stylesheet" href="./css/home.css"-->    
+        
     </head>
 
     <body>
@@ -34,15 +32,15 @@
                                 contact form or my email: 
                                 <br>
                                 <div class="socialMediaIcons">
-                                <a href="mailto:apang@uoguelph.ca">
-                                    <img src="img/social/mailIcon.png" alt="apang@uoguelph.ca"/>
-                                </a>
+                                    <a href="mailto:apang@uoguelph.ca">
+                                        <img src="img/social/mailIcon.png" alt="apang@uoguelph.ca"/>
+                                    </a>
                                 </div>
                             </p>
                             
                             <br>
                             <p>
-                                You can also stay connected with me through the following:
+                                You can also stay connected with me through the following social networks:
                             </p>
                             <p class="socialMediaIcons">
                                 <a href="https://www.facebook.com/angela.pang.501">

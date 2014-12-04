@@ -26,6 +26,10 @@
         else {
             echo '<p id="contactMsgNotSent">Something went wrong with the server. Please try again.</p>';
         }
+        $name = '';
+        $email = '';
+        $subject = '';
+        $message = '';
     }
     else if ($submit == true) {
         echo '<p id="contactMsgNotSent">*All fields are required.</p>';

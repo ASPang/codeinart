@@ -1,10 +1,14 @@
 <?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
 <br>
 <div class="row">
+    <!-- Logo -->
     <div class="logoDiv col-sm-12 col-md-2">
-        <img src="img/logo.png" alt="CODEINART" />
+        <a href="index.php">
+            <img src="img/logo.png" alt="CODEINART" />
+        </a>
     </div>
     <div class="col-sm-12 col-md-10">
+        <!-- Social Media Icons -->
         <div class="row">
             <div class="socialMediaDiv">
                 <a href="https://www.facebook.com/angela.pang.501">
@@ -13,8 +17,10 @@
                 <a href="http://ca.linkedin.com/pub/angela-pang/48/708/4a8/">
                     <img src="img/social/linkedinIcon.png" alt="linkedin" />
                 </a>
-            </div>   <!-- TESTING!!!! - Temporary height -->
+            </div> 
         </div>
+        
+        <!-- Navigation -->
         <div class="row">
             <nav class="navbar navbar-default navbar-inverse row-fluid" role="navigation">
                 <div class="container-fluid">
