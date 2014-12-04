@@ -193,7 +193,7 @@ noscript {
     margin: auto;
 }
 
-#artistImgDiamond {
+#artistImgDiamond, #artistImgDiamond img  {
     float: left;
     height: 300px; 
     width: 300px;
@@ -219,6 +219,16 @@ noscript {
 .artworkRow, .artworkRow .row {
     padding-top: 1em;
     padding-bottom: 2em;
+}
+
+.portHeaderImg .carousel-caption {
+    bottom: 35%;
+}
+
+.portHeaderImg:hover {
+    color: #fff;
+    background-color: #52AB7E;
+    opacity: 0.5;
 }
 
 /*** Modal **/

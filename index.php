@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Exploring Different Art Mediums- Code In Art</title>
-        <meta name="description" content="Works of art created through Studio Arts course as a minor by Angela Pang." />
-
+        <meta name="description" content="Home page of works of art created through Studio Arts course as a minor by Angela Pang." />
+        <link rel="shortcut icon" href="img/favicon.ico" >
+        
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" type="text/css" />

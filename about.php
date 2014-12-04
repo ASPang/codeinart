@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Artist's Background- Code In Art</title>
         <meta name="description" content="Background information about Angela Pang." />
+        <link rel="shortcut icon" href="img/favicon.ico" >
 
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
@@ -53,7 +54,7 @@
                             <div id="artistImgDiamond">
                                 <div class="diamond-box">
                                     <div class="diamond-box-inner">
-                                            <img src="img/sculpture/181.JPG" />
+                                            <img src="img/self.png" />
                                     </div><!--diamond-box-inner-->
                                 </div><!--diamond-box-->
                             </div><!--artImgDiamond-->

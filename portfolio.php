@@ -2,9 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Exploring Different Art Mediums- Code In Art</title>
-        <meta name="description" content="Works of art created through Studio Arts course as a minor by Angela Pang." />
-
+        <title>Art Project Completed - Code In Art</title>
+        <meta name="description" content="Portfolio of the projects completed for Studio Arts course as a minor by Angela Pang." />
+        <link rel="shortcut icon" href="img/favicon.ico" >
+        
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
@@ -23,13 +24,42 @@
                 <!-- Navigation Bar -->
                 <?php include 'components/header.php'; ?>
 
-                <h1>Portfolio</h1>
+                
+                <h1 id="portfolioHeader">Portfolio</h1>
+                
                 <?php include 'components/modal.php' ?>
 
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="portHeaderImg" href="#sculptureHeader">
+                            <img src="img/portHeader/sculpture.png" />
+                            <div class="carousel-caption"> 
+                                <h1>Sculpture</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="portHeaderImg" href="#printHeader">
+                            <img src="img/portHeader/print.png" />
+                            <div class="carousel-caption"> 
+                                <h1>Print Making</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="portHeaderImg" href="#graphicHeader">                            
+                            <img src="img/portHeader/graphic.png" />
+                            <div class="carousel-caption"> 
+                                <h1>Graphics</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <br>
 
                 <div class="col-md-4">
                     <div class="portHeader row">
-                        <h2>Sculpture</h2>
+                        <h2 id="sculptureHeader">Sculpture</h2>
                     </div>
                 </div>
                 <div class="col-md-8"></div>
@@ -39,7 +69,7 @@
 
                 <div class="col-md-4">
                     <div class="portHeader row">
-                        <h2>Print Making</h2>
+                        <h2 id="printHeader">Print Making</h2>
                     </div>
                 </div>
                 <div class="col-md-8"></div>
@@ -49,7 +79,7 @@
 
                 <div class="col-md-4">
                     <div class="portHeader row">
-                        <h2>Graphics</h2>
+                        <h2 id="graphicHeader">Graphics</h2>
                     </div>
                 </div>
                 <div class="col-md-8"></div>
