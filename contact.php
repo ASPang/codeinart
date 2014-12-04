@@ -34,6 +34,19 @@
                                 contact form or my email: 
                                 <a href="mailto:apang@uoguelph.ca">apang@uoguelph.ca</a>
                             </p>
+                            
+                            <br>
+                            <p>
+                                You can also stay connected with me through the following:
+                            </p>
+                            <p class="socialMediaIcons">
+                            <a href="#">
+                                    <img src="#" alt="facebook" />
+                                </a>
+                                <a href="#">
+                                    <img src="#" alt="linkedin" />
+                                </a>
+                            </p>
                         </div>
                         <div class="contactTriangle col-xs-1 col-sm-1 col-md-1 col-lg-1">
                             <div class="triangle-right-nonResponsive"></div>
@@ -50,43 +63,43 @@
                             
                         </div>
                         -->
-                        <form id="contactForm" role="form">
+                        <form id="contactForm" role="form" method="post" action="contact.php">
                             <div class="form-group">
-                                <div class="contactLabel col-md-4">
+                                <div class="contactLabel col-md-3">
                                     <label for="userContactName">Name:</label>
                                 </div>
-                                <div class="contactName col-md-8">
-                                    <input type="name" class="form-control" id="userContactName" placeholder="Enter your name">
+                                <div class="contactName col-md-9">
+                                    <input name="userContactName" type="name" class="form-control" id="userContactName" placeholder="Enter your name">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="contactLabel col-md-4">
+                                <div class="contactLabel col-md-3">
                                     <label for="userContactEmail">Email address:</label>
                                 </div>
-                                <div class="col-md-8">
-                                    <input type="email" class="form-control" id="userContactEmail" placeholder="Enter email">
+                                <div class="col-md-9">
+                                    <input name="userContactEmail" type="email" class="form-control" id="userContactEmail" placeholder="Enter email">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="contactLabel col-md-4">
+                                <div class="contactLabel col-md-3">
                                     <label for="userContactSubject">Email address:</label>
                                 </div>
-                                <div class="col-md-8">
-                                    <input type="subject" class="form-control" id="userContactSubject" placeholder="Enter subject">
+                                <div class="col-md-9">
+                                    <input name="userContactSubject" type="subject" class="form-control" id="userContactSubject" placeholder="Enter subject">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="contactLabel col-md-4">
+                                <div class="contactLabel col-md-3">
                                     <label for="userContactMessage">Message:</label>
                                 </div>
-                                <div class="col-md-8">
-                                    <textarea id="userContactMessage" class="form-control" name="userContactMessage" rows="3"></textarea>
+                                <div class="col-md-9">
+                                    <textarea id="userContactMessage" class="form-control" name="userContactMessage" rows="5"></textarea>
                                     <!--input type="text" class="form-control" id="userContactMessage" placeholder="Enter Message"-->
                                 </div>
                             </div>
                             
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <button type="submit" class="btn btn-default">Submit</button>
+                                <input name="submit" type="submit" class="btn btn-default" value="Submit">
                             </div>
                         </form>
                     </div>
@@ -94,6 +107,7 @@
                 
 
              
+                <?php include 'contactPost.php' ?>
 
                 <script src="js/bootstrap.js"></script>
                 `<!-- Javascript -->

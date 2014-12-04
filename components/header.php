@@ -1,12 +1,19 @@
 <?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
 
 <div class="row">
-    <div class="col-md-2">
+    <div class="logoDiv col-sm-12 col-md-2">
         <img src="img/logo.png" alt="CODEINART" />
     </div>
-    <div class="col-md-10">
+    <div class="col-sm-12 col-md-10">
         <div class="row">
-            <div style="height: 78px;"></div>   <!-- TESTING!!!! - Temporary height -->
+            <div class="socialMediaDiv">
+                <a href="#">
+                                    <img src="#" alt="facebook" />
+                                </a>
+                                <a href="#">
+                                    <img src="#" alt="linkedin" />
+                                </a>
+            </div>   <!-- TESTING!!!! - Temporary height -->
         </div>
         <div class="row">
             <nav class="navbar navbar-default navbar-inverse row-fluid" role="navigation">

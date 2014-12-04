@@ -38,6 +38,16 @@ noscript {
     background-color: #fff;
 }
 
+.logoDiv img, .socialMediaDiv a {
+    text-align: center;
+}
+
+.socialMediaDiv {
+    padding: 15px 15px 0 0;
+    height: 78px;
+    float: right;
+}
+
 /*** Page Content ***/
 .container-fluid {
     height: 100%;
@@ -104,6 +114,61 @@ noscript {
     border-top: 500px solid #4679BD;
 }
 
+.heroBottom div {
+    float: left;
+}
+
+.triangle-down {
+    padding-left: 42%;
+    overflow: hidden;
+    box-sizing: initial;
+    padding-top: 4.5%;
+    width: 58%;
+}
+
+.triangle-down div {
+    width: 0px;
+    height: 0px;
+    margin-left: -500px;
+    margin-top: -50px;
+    border-left: 600px solid transparent;
+    border-right: 600px solid transparent;
+    border-top: 45px solid #4679BD;
+}
+/*
+.triangle-down-right {
+    height: 0;
+    padding-top:25%;
+    overflow: hidden;
+}
+.triangle-down-right:after {    
+        content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+
+    border-right: 580px solid #4679BD;
+    border-top: 30px solid transparent;
+    margin-top: -180px;
+}
+
+
+.triangle-down-right2 {
+    height: 0;
+    padding-top:25%;
+    overflow: hidden;
+}
+.triangle-down-right2:after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    margin-top: -150px;
+    border-top: 50px solid transparent;
+    border-left: 1000px solid #4679BD;
+    margin-left: -620px;
+}*/
+
 /*
  * Original Code From: https://github.com/mqchen/jquery.diamonds.js
  */
@@ -137,7 +202,7 @@ noscript {
 }
 
 .artImgDiamond {
-    float: right;
+    float: left;
     height: 200px; 
     width: 200px;
     margin: auto;
@@ -175,16 +240,20 @@ noscript {
     height: 500px;
 }
 
-form div{    
-    padding-top: 1em;
+.socialMediaIcons {
     text-align: center;
 }
 
-form .contactLabel {
+form div{    
+    padding-top: 1em;
     text-align: right;
 }
 
-form div button {
+form .contactLabel {
+    text-align: left;
+}
+
+form div .btn {
     margin: auto;
 }
 

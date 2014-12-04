@@ -22,13 +22,17 @@
             <div class="content">
                 <!-- Navigation Bar -->
                 <?php include 'components/header.php'; ?>
-
                 <!-- Hero -->
                 <div class=""><div>
                         <?php include 'components/carousel.php'; ?>
                     </div></div>                
 
 
+                <div class="triangle-down"><div></div></div>
+                <div class="heroBottom">
+                    <div class="triangle-down-right2" ></div>
+                    <div class="triangle-down-right" ></div>
+                </div>
                 <!-- Hero Bottom Space -->
                 <!--div class="heroTriangle arrow-down"></div-->
 
@@ -40,12 +44,12 @@
                 <div class="row updateInfo" style="background-color: #fff;">
                     <h1>Recent Uploads</h1>
                     <hr class="featurette-divider">
-                    
-                    
+
+
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
                             <div class="imgRecentThumb">
-                                 <div class="diamond-box">
+                                <div class="diamond-box">
                                     <div class="diamond-box-inner">
                                         <img src="img/temp.png"  />
                                     </div>
@@ -69,7 +73,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
                             <div class="imgRecentThumb">
-                                 <div class="diamond-box">
+                                <div class="diamond-box">
                                     <div class="diamond-box-inner">
                                         <img src="img/temp.png"  />
                                     </div>
@@ -93,7 +97,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
                             <div class="imgRecentThumb">
-                                 <div class="diamond-box">
+                                <div class="diamond-box">
                                     <div class="diamond-box-inner">
                                         <img src="img/temp.png"  />
                                     </div>
